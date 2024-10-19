@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
-import Polygon from './Polygon';
+
 
 // Import images
 import hero1 from './hero1.jpeg';
@@ -83,7 +83,7 @@ const DualImageCarousel = () => {
 
   return (
     <div className="relative flex justify-start items-end h-full">
-      <Polygon className="absolute" />
+
       <div
         className="absolute w-full max-w-6xl mx-auto py-24 right-4 overflow-hidden h-full"
         onMouseEnter={stopAutoplay}
