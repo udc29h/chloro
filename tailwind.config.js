@@ -10,7 +10,12 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        darkgreen: "#023a15"
       },
+        fontFamily: {
+          cormorant: ['Cormorant', 'serif'],
+          montserrat: ['Montserrat', 'serif'],
+        },
     },
   },
   plugins: [],

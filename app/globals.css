@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&display=swap');
+
+.cormorant-font {
+  font-family: 'Cormorant', serif;
+}
+.montserrat-style {
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 :root {
   --background: #ffffff;
@@ -25,3 +35,5 @@ body {
     text-wrap: balance;
   }
 }
+
+
